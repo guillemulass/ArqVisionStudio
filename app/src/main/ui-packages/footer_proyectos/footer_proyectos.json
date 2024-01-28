@@ -1,0 +1,261 @@
+{
+  "name": "footer_proyectos",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "112:147",
+    "version": "5033701384",
+    "component-id": "a57fff2eab6e364d22caad863ed614f3f99b100b"
+  },
+  "default": "Footer Proyectos",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "FooterFondo"
+      },
+      {
+        "type": "text",
+        "id": "proyectos"
+      },
+      {
+        "type": "text",
+        "id": "Inicio"
+      },
+      {
+        "type": "vector",
+        "id": "Indicador2"
+      },
+      {
+        "type": "vector",
+        "id": "Indicador1"
+      },
+      {
+        "type": "vector",
+        "id": "FooterSeparador"
+      },
+      {
+        "type": "text",
+        "id": "más info"
+      }
+    ],
+    "modes": {
+      "Footer Proyectos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "FooterFondo",
+              "proyectos",
+              "Inicio",
+              "Indicador2",
+              "Indicador1",
+              "FooterSeparador",
+              "más info"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "FooterFondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "footer_fondo.svg"
+          },
+          {
+            "id": "proyectos",
+            "margin": {
+              "left": "135.0",
+              "top": "22.0",
+              "right": "136.0",
+              "bottom": "21.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "proyectos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "Inicio",
+            "margin": {
+              "left": "31.0",
+              "top": "22.0",
+              "right": "279.0",
+              "bottom": "21.0"
+            },
+            "tap-handler": "$FooterProyectosInicioButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Inicio",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "Indicador2",
+            "margin": {
+              "left": "135.0",
+              "top": "16.0",
+              "right": "136.0",
+              "bottom": "39.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "indicador2.svg"
+          },
+          {
+            "id": "Indicador1",
+            "margin": {
+              "left": "135.0",
+              "top": "39.0",
+              "right": "136.0",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "indicador1.svg"
+          },
+          {
+            "id": "FooterSeparador",
+            "margin": {
+              "bottom": "55.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "footer_separador.svg"
+          },
+          {
+            "id": "más info",
+            "margin": {
+              "left": "266.0",
+              "top": "22.0",
+              "right": "13.0",
+              "bottom": "21.0"
+            },
+            "tap-handler": "$FooterProyectosMasInfoButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "más info",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "FooterProyectosInicioButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "FooterProyectosMasInfoButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Footer Proyectos",
+      "size": {
+        "width": 360.0,
+        "height": 56.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

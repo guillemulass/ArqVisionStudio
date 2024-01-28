@@ -1,0 +1,157 @@
+{
+  "name": "header",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "112:494",
+    "version": "5033643859",
+    "component-id": "9a2c0504d671586577c867157e24464e96a34ce3"
+  },
+  "default": "Header",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "ArqVision Studio"
+      },
+      {
+        "type": "image",
+        "id": "logo"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 22"
+      }
+    ],
+    "modes": {
+      "Header": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "ArqVision Studio",
+              "logo",
+              "Rectangle 22"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ArqVision Studio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "37.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-11.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "254.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "$HeaderText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "19.0",
+            "letter-spacing": "3.8000000000000003",
+            "line-height": "0.6315789413452149",
+            "case": "upper"
+          },
+          {
+            "id": "logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-132.40243911743164"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-5.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.19512176513672"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "image-content": "logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 22",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "37.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "329.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_22.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "HeaderText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Header",
+      "size": {
+        "width": 329.0,
+        "height": 75.0
+      },
+      "parameters": {
+        "HeaderText": "ArqVision Studio"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

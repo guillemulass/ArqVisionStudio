@@ -1,0 +1,239 @@
+{
+  "name": "footer_main",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "112:138",
+    "version": "5033643859",
+    "component-id": "349c7f7ed30a6b83ce8cbf57f51ea7069fca612d"
+  },
+  "default": "Footer Main",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "FondoFooter"
+      },
+      {
+        "type": "text",
+        "id": "más info"
+      },
+      {
+        "type": "text",
+        "id": "proyectos"
+      },
+      {
+        "type": "vector",
+        "id": "indicador2"
+      },
+      {
+        "type": "text",
+        "id": "Inicio"
+      },
+      {
+        "type": "vector",
+        "id": "indicador1"
+      }
+    ],
+    "modes": {
+      "Footer Main": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "FondoFooter",
+              "más info",
+              "proyectos",
+              "indicador2",
+              "Inicio",
+              "indicador1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "FondoFooter",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fondo_footer.svg"
+          },
+          {
+            "id": "más info",
+            "margin": {
+              "left": "266.0",
+              "top": "22.0",
+              "right": "13.0",
+              "bottom": "21.0"
+            },
+            "tap-handler": "$FooterMainMasInfoButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "más info",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "proyectos",
+            "margin": {
+              "left": "135.0",
+              "top": "22.0",
+              "right": "136.0",
+              "bottom": "21.0"
+            },
+            "tap-handler": "$FooterMainProyectosButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "proyectos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "indicador2",
+            "margin": {
+              "left": "20.0",
+              "top": "39.0",
+              "right": "268.0",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "indicador2.svg"
+          },
+          {
+            "id": "Inicio",
+            "margin": {
+              "left": "31.0",
+              "top": "22.0",
+              "right": "279.0",
+              "bottom": "21.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Inicio",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "indicador1",
+            "margin": {
+              "left": "20.0",
+              "top": "16.0",
+              "right": "268.0",
+              "bottom": "39.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "indicador1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "FooterMainMasInfoButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "FooterMainProyectosButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Footer Main",
+      "size": {
+        "width": 360.0,
+        "height": 56.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

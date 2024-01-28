@@ -1,0 +1,1097 @@
+{
+  "name": "caja_proyecto",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "123:98",
+    "version": "5033643859",
+    "component-id": "9c95667827fb1066d8b220bb3a9d2bd64953b187"
+  },
+  "default": "CajaProy3",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "CajaProy3Fondo"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy3Btn"
+      },
+      {
+        "type": "text",
+        "id": "CajaProy3Text"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 3"
+      },
+      {
+        "type": "image",
+        "id": "CajaProy3Img"
+      },
+      {
+        "type": "vector",
+        "id": "CajaProy3BtnFondo"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy3BtnText"
+      },
+      {
+        "type": "text",
+        "id": "Ver Más"
+      },
+      {
+        "type": "group",
+        "id": "arrow-2-right-long"
+      },
+      {
+        "type": "group",
+        "id": "ico-bg"
+      },
+      {
+        "type": "group",
+        "id": "ico-shape"
+      },
+      {
+        "type": "vector",
+        "id": "ico-bg1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector (Stroke)"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 2 (Stroke)"
+      },
+      {
+        "type": "vector",
+        "id": "CajaProy2Fondo"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy2Btn"
+      },
+      {
+        "type": "text",
+        "id": "CajaProy2Text"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 2"
+      },
+      {
+        "type": "image",
+        "id": "CajaProy2Img"
+      },
+      {
+        "type": "vector",
+        "id": "CajaProy2BtnFondo"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy2BtnText"
+      },
+      {
+        "type": "vector",
+        "id": "CajaProy1Fondo"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy1Btn"
+      },
+      {
+        "type": "text",
+        "id": "CajaProy1Text"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 1"
+      },
+      {
+        "type": "image",
+        "id": "CajaProy1Img"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "group",
+        "id": "CajaProy1Text1"
+      }
+    ],
+    "modes": {
+      "CajaProy3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "CajaProy3Fondo",
+              "CajaProy3Btn",
+              "CajaProy3Text",
+              "Proyecto 3",
+              "CajaProy3Img"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy3Fondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "caja_proy3fondo.svg"
+          },
+          {
+            "id": "CajaProy3Btn",
+            "margin": {
+              "left": "7.0",
+              "top": "163.0",
+              "right": "155.0",
+              "bottom": "13.0"
+            },
+            "tap-handler": "$CajaProy3Btn",
+            "is-structured": "false",
+            "children": [
+              "CajaProy3BtnFondo",
+              "CajaProy3BtnText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy3Text",
+            "margin": {
+              "left": "7.0",
+              "top": "34.0",
+              "right": "142.0",
+              "bottom": "68.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Proyecto Realizado en 2015 en Berlin, un centro comercial queria un aparcamiento nuevo, seguro y muy grande, las obras terminaron en tiempo record.\n\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "Proyecto 3",
+            "margin": {
+              "left": "7.0",
+              "top": "5.0",
+              "right": "224.0",
+              "bottom": "173.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Proyecto 3\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "CajaProy3Img",
+            "margin": {
+              "left": "190.0",
+              "top": "10.0",
+              "right": "5.0",
+              "bottom": "5.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "caja_proy3img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "CajaProy3BtnFondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "caja_proy3btn_fondo.svg"
+          },
+          {
+            "id": "CajaProy3BtnText",
+            "margin": {
+              "left": "19.0",
+              "top": "12.0",
+              "right": "19.0",
+              "bottom": "12.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Ver Más",
+              "arrow-2-right-long"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ver Más",
+            "margin": {
+              "top": "6.0",
+              "right": "63.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Ver Más",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "arrow-2-right-long",
+            "margin": {
+              "left": "104.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "ico-bg",
+              "ico-shape"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg",
+            "margin": {
+              "right": "0.000002956421667477116",
+              "bottom": "0.000002956422122224467"
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.6081230200044232e-16",
+                "0.0"
+              ],
+              [
+                "-1.6081230200044232e-16",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "ico-bg1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.20710563659668"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.000000953674316"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector (Stroke)",
+              "Vector 2 (Stroke)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg1",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector (Stroke)",
+            "margin": {
+              "top": "3.499999999999998",
+              "right": "0.2071075439453125",
+              "bottom": "3.500000953674318"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_stroke_.svg"
+          },
+          {
+            "id": "Vector 2 (Stroke)",
+            "margin": {
+              "left": "12.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_2_stroke_.svg"
+          }
+        ]
+      },
+      "CajaProy2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "CajaProy2Fondo",
+              "CajaProy2Btn",
+              "CajaProy2Text",
+              "Proyecto 2",
+              "CajaProy2Img"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy2Fondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "caja_proy2fondo.svg"
+          },
+          {
+            "id": "CajaProy2Btn",
+            "margin": {
+              "left": "7.0",
+              "top": "163.0",
+              "right": "155.0",
+              "bottom": "13.0"
+            },
+            "tap-handler": "$CajaProy2Btn",
+            "is-structured": "false",
+            "children": [
+              "CajaProy2BtnFondo",
+              "CajaProy2BtnText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy2Text",
+            "margin": {
+              "left": "7.0",
+              "top": "31.0",
+              "right": "142.0",
+              "bottom": "68.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Proyecto realizado en 2021 en Barcelona, tuvimos que diseñar unos apartamentos de unos edificios nuevos, los cuales se vendieron en una semana.\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "Proyecto 2",
+            "margin": {
+              "left": "7.0",
+              "top": "5.0",
+              "right": "224.0",
+              "bottom": "196.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Proyecto 2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "CajaProy2Img",
+            "margin": {
+              "left": "190.0",
+              "top": "11.0",
+              "right": "6.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "caja_proy2img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "CajaProy2BtnFondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "caja_proy2btn_fondo.svg"
+          },
+          {
+            "id": "CajaProy2BtnText",
+            "margin": {
+              "left": "19.0",
+              "top": "12.0",
+              "right": "19.0",
+              "bottom": "12.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Ver Más",
+              "arrow-2-right-long"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ver Más",
+            "margin": {
+              "top": "6.0",
+              "right": "63.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Ver Más",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "arrow-2-right-long",
+            "margin": {
+              "left": "104.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "ico-bg",
+              "ico-shape"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg",
+            "margin": {
+              "right": "0.000002956421667477116",
+              "bottom": "0.000002956422122224467"
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.6081230200044232e-16",
+                "0.0"
+              ],
+              [
+                "-1.6081230200044232e-16",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "ico-bg1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.20710563659668"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.000000953674316"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector (Stroke)",
+              "Vector 2 (Stroke)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg1",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector (Stroke)",
+            "margin": {
+              "top": "3.499999999999998",
+              "right": "0.2071075439453125",
+              "bottom": "3.500000953674318"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_stroke_1.svg"
+          },
+          {
+            "id": "Vector 2 (Stroke)",
+            "margin": {
+              "left": "12.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_2_stroke_1.svg"
+          }
+        ]
+      },
+      "CajaProy1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "CajaProy1Fondo",
+              "CajaProy1Btn",
+              "CajaProy1Text",
+              "Proyecto 1",
+              "CajaProy1Img"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy1Fondo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "caja_proy1fondo.svg"
+          },
+          {
+            "id": "CajaProy1Btn",
+            "margin": {
+              "left": "7.0",
+              "top": "163.0",
+              "right": "155.0",
+              "bottom": "13.0"
+            },
+            "tap-handler": "$CajaProy1Btn",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1",
+              "CajaProy1Text1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CajaProy1Text",
+            "margin": {
+              "left": "7.0",
+              "top": "31.0",
+              "right": "142.0",
+              "bottom": "68.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Proyecto realizado en 2017 en Madrid, un instituto necesitavas nuevas instalaciones y fuimos contratados, actualmente las obras estan terminadas.\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "Proyecto 1",
+            "margin": {
+              "left": "7.0",
+              "top": "5.0",
+              "right": "224.0",
+              "bottom": "196.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Proyecto 1",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "CajaProy1Img",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "187.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "183.51234436035156"
+              }
+            },
+            "image-content": "caja_proy1img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "CajaProy1Text1",
+            "margin": {
+              "left": "19.0",
+              "top": "12.0",
+              "right": "19.0",
+              "bottom": "12.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Ver Más",
+              "arrow-2-right-long"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ver Más",
+            "margin": {
+              "top": "6.0",
+              "right": "63.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Ver Más",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "arrow-2-right-long",
+            "margin": {
+              "left": "104.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "ico-bg",
+              "ico-shape"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg",
+            "margin": {
+              "right": "0.000002956421667477116",
+              "bottom": "0.000002956422122224467"
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.6081230200044232e-16",
+                "0.0"
+              ],
+              [
+                "-1.6081230200044232e-16",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "ico-bg1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.20710563659668"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.000000953674316"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector (Stroke)",
+              "Vector 2 (Stroke)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg1",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector (Stroke)",
+            "margin": {
+              "top": "3.499999999999998",
+              "right": "0.2071075439453125",
+              "bottom": "3.500000953674318"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_stroke_2.svg"
+          },
+          {
+            "id": "Vector 2 (Stroke)",
+            "margin": {
+              "left": "12.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_2_stroke_2.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "CajaProy3Btn": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "CajaProy2Btn": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "CajaProy1Btn": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "CajaProy3",
+      "size": {
+        "width": 328.0,
+        "height": 224.0
+      }
+    },
+    {
+      "design": "CajaProy2",
+      "size": {
+        "width": 328.0,
+        "height": 224.0
+      }
+    },
+    {
+      "design": "CajaProy1",
+      "size": {
+        "width": 328.0,
+        "height": 224.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,450 @@
+{
+  "name": "sobre_nosotros_panel",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "112:640",
+    "version": "5033643859",
+    "component-id": "46aa52244d8d5f366140bf84b6cc90bdff5ff3a4"
+  },
+  "default": "SobreNosotrosPanel",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "SobreNosotrosPanelFondo"
+      },
+      {
+        "type": "group",
+        "id": "SobreNosotrosPanelBtn"
+      },
+      {
+        "type": "text",
+        "id": "SobreNosotrosPanelText"
+      },
+      {
+        "type": "text",
+        "id": "Sobre nosotros"
+      },
+      {
+        "type": "image",
+        "id": "SobreNosotrosPanelImg"
+      },
+      {
+        "type": "group",
+        "id": "arrow-2-right-long"
+      },
+      {
+        "type": "vector",
+        "id": "SobreNosotrosPanelBtnFondo"
+      },
+      {
+        "type": "group",
+        "id": "SobreNosotrosPanelBtnText"
+      },
+      {
+        "type": "text",
+        "id": "Leer más"
+      },
+      {
+        "type": "group",
+        "id": "ico-bg"
+      },
+      {
+        "type": "group",
+        "id": "ico-shape"
+      },
+      {
+        "type": "vector",
+        "id": "ico-bg1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector (Stroke)"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 2 (Stroke)"
+      }
+    ],
+    "modes": {
+      "SobreNosotrosPanel": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "SobreNosotrosPanelFondo",
+              "SobreNosotrosPanelBtn",
+              "SobreNosotrosPanelText",
+              "Sobre nosotros",
+              "SobreNosotrosPanelImg",
+              "arrow-2-right-long"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "SobreNosotrosPanelFondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "328.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "307.0"
+              }
+            },
+            "vector-content": "sobre_nosotros_panel_fondo.svg"
+          },
+          {
+            "id": "SobreNosotrosPanelBtn",
+            "margin": {
+              "left": "134.0",
+              "top": "239.0",
+              "right": "16.0",
+              "bottom": "20.0"
+            },
+            "tap-handler": "$on SobreNosotrosPanel",
+            "is-structured": "false",
+            "children": [
+              "SobreNosotrosPanelBtnFondo",
+              "SobreNosotrosPanelBtnText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "SobreNosotrosPanelText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "64.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "192.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "195.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$SobreNosotrosPanelText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "Sobre nosotros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-129.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "136.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Sobre nosotros",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0"
+          },
+          {
+            "id": "SobreNosotrosPanelImg",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "5.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "111.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "298.6428527832031"
+              }
+            },
+            "image-content": "sobre_nosotros_panel_img.png",
+            "scale": "cover"
+          },
+          {
+            "id": "arrow-2-right-long",
+            "margin": {
+              "left": "273.0",
+              "top": "251.0",
+              "right": "31.0",
+              "bottom": "32.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "ico-bg",
+              "ico-shape"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "SobreNosotrosPanelBtnFondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "178.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "sobre_nosotros_panel_btn_fondo.svg"
+          },
+          {
+            "id": "SobreNosotrosPanelBtnText",
+            "margin": {
+              "left": "16.0",
+              "top": "18.0",
+              "right": "39.0",
+              "bottom": "18.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Leer más"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Leer más",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "123.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Leer más",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
+          },
+          {
+            "id": "ico-bg",
+            "margin": {
+              "right": "0.000002956421667477116",
+              "bottom": "0.000002956422122224467"
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.6081230200044232e-16",
+                "0.0"
+              ],
+              [
+                "-1.6081230200044232e-16",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "ico-bg1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.20710563659668"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.000000953674316"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector (Stroke)",
+              "Vector 2 (Stroke)"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "ico-bg1",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector (Stroke)",
+            "margin": {
+              "top": "3.499999999999998",
+              "right": "0.2071075439453125",
+              "bottom": "3.500000953674318"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_stroke_.svg"
+          },
+          {
+            "id": "Vector 2 (Stroke)",
+            "margin": {
+              "left": "12.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_2_stroke_.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on SobreNosotrosPanel": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "SobreNosotrosPanelText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "SobreNosotrosPanel",
+      "size": {
+        "width": 328.0,
+        "height": 307.0
+      },
+      "parameters": {
+        "SobreNosotrosPanelText": "En ArqVision Studio, llevamos la visión arquitectónica a nuevas alturas. Somos un equipo apasionado de diseñadores, arquitectos y creadores que buscan transformar sueños en espacios tangibles y funcionales.\n"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
