@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
     "node": "1230:273",
-    "version": "5069356423",
+    "version": "5069486554",
     "component-id": "0be4dab62735b65da6f47292bd2f4df7d1be0ad3"
   },
   "default": "Intro Mas Info",
@@ -18,7 +18,7 @@
       },
       {
         "type": "vector",
-        "id": "Separador"
+        "id": "Separador2"
       },
       {
         "type": "text",
@@ -44,7 +44,7 @@
             "id": "top_level",
             "is-structured": "false",
             "children": [
-              "Separador",
+              "Separador2",
               "IntroText",
               "Separador1",
               "Nosotros",
@@ -53,7 +53,7 @@
             "clip-content": "false"
           },
           {
-            "id": "Separador",
+            "id": "Separador2",
             "margin": {
               "top": "412.0",
               "right": "2.0"
@@ -68,7 +68,7 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "separador.svg"
+            "vector-content": "separador2.svg"
           },
           {
             "id": "IntroText",
@@ -101,18 +101,23 @@
           },
           {
             "id": "Separador1",
-            "margin": {
-              "left": "2.0",
-              "top": "78.0",
-              "bottom": "334.0"
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-128.0"
+              }
             },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "fixed",
+                "value": "328.0"
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
+                "sizing-mode": "fixed",
                 "value": "1.0"
               }
             },
