@@ -1,14 +1,14 @@
 {
-  "name": "nuestro_proyectos_title",
+  "name": "certificaciones_mas_info",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
-    "node": "154:593",
+    "node": "1230:274",
     "version": "5069356423",
-    "component-id": "cd41d60a2fa6e3b9b47ce253f841e8563e118ca9"
+    "component-id": "3d4509b54fd0f606b5dda259f486c0489e8442e2"
   },
-  "default": "NuestroProyectosTitle",
+  "default": "Certificaciones Mas Info",
   "design": {
     "atoms": [
       {
@@ -21,24 +21,24 @@
         "id": "Separador"
       },
       {
-        "type": "text",
-        "id": "Proyectos"
+        "type": "image",
+        "id": "CertificacionesImg"
       },
       {
         "type": "text",
-        "id": "Nuestros"
+        "id": "Certificaciones"
       }
     ],
     "modes": {
-      "NuestroProyectosTitle": {
+      "Certificaciones Mas Info": {
         "rules": [
           {
             "id": "top_level",
             "is-structured": "false",
             "children": [
               "Separador",
-              "Proyectos",
-              "Nuestros"
+              "CertificacionesImg",
+              "Certificaciones"
             ],
             "clip-content": "false"
           },
@@ -46,8 +46,7 @@
             "id": "Separador",
             "margin": {
               "left": "1.0",
-              "top": "78.0",
-              "bottom": "11.0"
+              "top": "240.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -62,10 +61,31 @@
             "vector-content": "separador.svg"
           },
           {
-            "id": "Proyectos",
+            "id": "CertificacionesImg",
             "margin": {
-              "top": "26.0",
-              "right": "193.0"
+              "left": "48.0",
+              "top": "25.0",
+              "right": "16.0",
+              "bottom": "5.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "certificaciones_img.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Certificaciones",
+            "margin": {
+              "right": "192.0",
+              "bottom": "223.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -84,41 +104,11 @@
               "saturation": "0.0",
               "value": "0.2"
             },
-            "text-content": "Proyectos",
-            "overflow": "visible",
-            "text-align": "left",
-            "text-size": "30.0",
-            "line-height": "2.133333282470703"
-          },
-          {
-            "id": "Nuestros",
-            "margin": {
-              "right": "187.0",
-              "bottom": "26.0"
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              }
-            },
-            "font-weight": "300.0",
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "0.7411764705882353"
-            },
-            "text-content": "Nuestros",
+            "text-content": "Certificaciones",
             "overflow": "visible",
             "max-lines": "-1",
             "text-align": "left",
-            "text-size": "30.0",
-            "line-height": "2.133333282470703"
+            "text-size": "20.0"
           }
         ]
       }
@@ -126,10 +116,10 @@
   },
   "previews": [
     {
-      "design": "NuestroProyectosTitle",
+      "design": "Certificaciones Mas Info",
       "size": {
         "width": 329.0,
-        "height": 90.0
+        "height": 241.0
       }
     }
   ],

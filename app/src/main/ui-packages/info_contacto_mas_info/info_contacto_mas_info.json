@@ -1,0 +1,247 @@
+{
+  "name": "info_contacto_mas_info",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "1230:275",
+    "version": "5069356423",
+    "component-id": "2b0c43bffeb68878f4536d6d2d8092b759c202b3"
+  },
+  "default": "Info Contacto Mas Info",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Email"
+      },
+      {
+        "type": "text",
+        "id": "Num Tlf"
+      },
+      {
+        "type": "text",
+        "id": "Direccion"
+      },
+      {
+        "type": "text",
+        "id": "Contacto"
+      },
+      {
+        "type": "text",
+        "id": "Información"
+      }
+    ],
+    "modes": {
+      "Info Contacto Mas Info": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Email",
+              "Num Tlf",
+              "Direccion",
+              "Contacto",
+              "Información"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Email",
+            "margin": {
+              "top": "160.0",
+              "right": "22.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "contacto@arqvision.com",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Num Tlf",
+            "margin": {
+              "left": "1.0",
+              "top": "131.0",
+              "right": "95.0",
+              "bottom": "29.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "652 397 250",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Direccion",
+            "margin": {
+              "left": "1.0",
+              "top": "90.0",
+              "bottom": "54.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "annotated-text-content": {
+              "text": "ArqVision Studio\nSan Fernando - Cádiz 11100",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "17",
+                  "annotated-text-style": {
+                    "font-weight": "700.0",
+                    "text-size": "14.0",
+                    "line-height": "1.171875",
+                    "typeface": "Roboto",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "0.2"
+                    }
+                  }
+                },
+                {
+                  "span-start": "17",
+                  "span-length": "26",
+                  "annotated-text-style": {
+                    "font-weight": "400.0",
+                    "text-size": "14.0",
+                    "typeface": "Roboto"
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Contacto",
+            "margin": {
+              "top": "26.0",
+              "right": "74.0",
+              "bottom": "86.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Contacto",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "2.56"
+          },
+          {
+            "id": "Información",
+            "margin": {
+              "right": "39.0",
+              "bottom": "112.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Información",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "2.56"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Info Contacto Mas Info",
+      "size": {
+        "width": 176.0,
+        "height": 176.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

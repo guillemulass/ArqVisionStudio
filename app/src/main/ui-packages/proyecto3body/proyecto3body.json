@@ -1,0 +1,139 @@
+{
+  "name": "proyecto3body",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "1230:268",
+    "version": "5069356423",
+    "component-id": "426240057ac2d2a0c163558b7bacc8c35eef879f"
+  },
+  "default": "Proyecto3Body",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto3Text"
+      },
+      {
+        "type": "image",
+        "id": "ImgProy3"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 3"
+      }
+    ],
+    "modes": {
+      "Proyecto3Body": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Proyecto3Text",
+              "ImgProy3",
+              "Proyecto 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Proyecto3Text",
+            "margin": {
+              "top": "245.0",
+              "right": "1.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "El proyecto arquitectónico que proponemos representa una fusión visionaria entre el diseño contemporáneo y la sostenibilidad. Inspirados en líneas limpias y formas orgánicas, buscamos una integración armoniosa con el entorno natural circundante. La estructura modular, diseñada para proporcionar flexibilidad funcional, se adapta de manera eficiente a las cambiantes necesidades de los usuarios. La elección de materiales respetuosos con el medio ambiente y tecnologías energéticamente eficientes refleja nuestro compromiso inquebrantable con la preservación del entorno. Nuestro proyecto aspira a crear un espacio estético, funcional y respetuoso con el entorno, ofreciendo una experiencia arquitectónica única y consciente. El juego meticuloso de luces y sombras realza la elegancia de cada detalle arquitectónico en distintos momentos del día.\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "ImgProy3",
+            "margin": {
+              "left": "1.0",
+              "top": "29.0",
+              "bottom": "393.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "img_proy3.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Proyecto 3",
+            "margin": {
+              "right": "184.0",
+              "bottom": "590.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Proyecto 3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Proyecto3Body",
+      "size": {
+        "width": 329.0,
+        "height": 620.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

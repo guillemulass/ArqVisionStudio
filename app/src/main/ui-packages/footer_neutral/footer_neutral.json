@@ -1,14 +1,14 @@
 {
-  "name": "footer_main",
+  "name": "footer_neutral",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
-    "node": "112:138",
-    "version": "5069327008",
-    "component-id": "349c7f7ed30a6b83ce8cbf57f51ea7069fca612d"
+    "node": "112:166",
+    "version": "5069356423",
+    "component-id": "81b677a51f0c5fe94309c48ae278a250aae5058a"
   },
-  "default": "Footer Main",
+  "default": "Footer Neutral",
   "design": {
     "atoms": [
       {
@@ -18,19 +18,11 @@
       },
       {
         "type": "vector",
-        "id": "FondoFooter"
-      },
-      {
-        "type": "text",
-        "id": "más info"
+        "id": "Rectangle 23"
       },
       {
         "type": "text",
         "id": "proyectos"
-      },
-      {
-        "type": "vector",
-        "id": "indicador2"
       },
       {
         "type": "text",
@@ -38,27 +30,30 @@
       },
       {
         "type": "vector",
-        "id": "indicador1"
+        "id": "FooterSeparador"
+      },
+      {
+        "type": "text",
+        "id": "más info"
       }
     ],
     "modes": {
-      "Footer Main": {
+      "Footer Neutral": {
         "rules": [
           {
             "id": "top_level",
             "is-structured": "false",
             "children": [
-              "FondoFooter",
-              "más info",
+              "Rectangle 23",
               "proyectos",
-              "indicador2",
               "Inicio",
-              "indicador1"
+              "FooterSeparador",
+              "más info"
             ],
             "clip-content": "false"
           },
           {
-            "id": "FondoFooter",
+            "id": "Rectangle 23",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -69,39 +64,7 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "fondo_footer.svg"
-          },
-          {
-            "id": "más info",
-            "margin": {
-              "left": "266.0",
-              "top": "22.0",
-              "right": "13.0",
-              "bottom": "21.0"
-            },
-            "tap-handler": "$FooterMainMasInfoButton",
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              }
-            },
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "0.2"
-            },
-            "text-content": "más info",
-            "overflow": "visible",
-            "max-lines": "-1",
-            "text-size": "12.0",
-            "letter-spacing": "2.4000000000000004",
-            "case": "upper"
+            "vector-content": "rectangle_23.svg"
           },
           {
             "id": "proyectos",
@@ -111,7 +74,7 @@
               "right": "136.0",
               "bottom": "21.0"
             },
-            "tap-handler": "$FooterMainProyectosButton",
+            "tap-handler": "$FooterNeutralProyectosButton",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -137,26 +100,6 @@
             "case": "upper"
           },
           {
-            "id": "indicador2",
-            "margin": {
-              "left": "20.0",
-              "top": "39.0",
-              "right": "268.0",
-              "bottom": "16.0"
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              }
-            },
-            "vector-content": "indicador2.svg"
-          },
-          {
             "id": "Inicio",
             "margin": {
               "left": "31.0",
@@ -164,6 +107,7 @@
               "right": "279.0",
               "bottom": "21.0"
             },
+            "tap-handler": "$FooterNeutralInicioButton",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -189,12 +133,9 @@
             "case": "upper"
           },
           {
-            "id": "indicador1",
+            "id": "FooterSeparador",
             "margin": {
-              "left": "20.0",
-              "top": "16.0",
-              "right": "268.0",
-              "bottom": "39.0"
+              "bottom": "55.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -206,19 +147,56 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "indicador1.svg"
+            "vector-content": "footer_separador.svg"
+          },
+          {
+            "id": "más info",
+            "margin": {
+              "left": "266.0",
+              "top": "22.0",
+              "right": "13.0",
+              "bottom": "21.0"
+            },
+            "tap-handler": "$FooterNeutralMasInfoButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "más info",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.0",
+            "letter-spacing": "2.4000000000000004",
+            "case": "upper"
           }
         ]
       }
     }
   },
   "parameters": {
-    "FooterMainMasInfoButton": {
+    "FooterNeutralProyectosButton": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
     },
-    "FooterMainProyectosButton": {
+    "FooterNeutralInicioButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "FooterNeutralMasInfoButton": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
@@ -226,7 +204,7 @@
   },
   "previews": [
     {
-      "design": "Footer Main",
+      "design": "Footer Neutral",
       "size": {
         "width": 360.0,
         "height": 56.0

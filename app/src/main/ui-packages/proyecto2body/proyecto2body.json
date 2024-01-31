@@ -1,0 +1,140 @@
+{
+  "name": "proyecto2body",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "1230:269",
+    "version": "5069356423",
+    "component-id": "c392d4f58ee7977f7fd2e6ac7433ab3f4fd9d169"
+  },
+  "default": "Proyecto2Body",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto1Text"
+      },
+      {
+        "type": "image",
+        "id": "ImgProy2"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 2"
+      }
+    ],
+    "modes": {
+      "Proyecto2Body": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Proyecto1Text",
+              "ImgProy2",
+              "Proyecto 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Proyecto1Text",
+            "margin": {
+              "top": "245.0",
+              "right": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "La propuesta arquitectónica planteada fusiona de manera innovadora el diseño contemporáneo y la sostenibilidad. Inspirados en líneas limpias y formas orgánicas, buscamos una armoniosa integración con el entorno natural circundante. La flexibilidad funcional, permitida por la estructura modular, se adapta de forma eficiente a las cambiantes necesidades de los usuarios. La elección de materiales respetuosos con el medio ambiente y tecnologías energéticamente eficientes subraya nuestro firme compromiso con la preservación del entorno. Este proyecto persigue la creación de un espacio estético, funcional y consciente del entorno, brindando así una experiencia arquitectónica única. La cuidadosa manipulación de luces y sombras destaca la elegancia de cada detalle arquitectónico en diferentes momentos del día.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "ImgProy2",
+            "margin": {
+              "left": "2.0",
+              "top": "39.0",
+              "bottom": "360.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "img_proy2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Proyecto 2",
+            "margin": {
+              "left": "1.0",
+              "right": "186.0",
+              "bottom": "558.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Proyecto 2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Proyecto2Body",
+      "size": {
+        "width": 332.0,
+        "height": 588.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

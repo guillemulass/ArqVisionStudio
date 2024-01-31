@@ -1,14 +1,14 @@
 {
-  "name": "nuestro_proyectos_title",
+  "name": "intro",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
-    "node": "154:593",
-    "version": "5069356423",
-    "component-id": "cd41d60a2fa6e3b9b47ce253f841e8563e118ca9"
+    "node": "1203:229",
+    "version": "5069327008",
+    "component-id": "c49c7a35cd02e82f9bd2f24ac5d25b14319e4a31"
   },
-  "default": "NuestroProyectosTitle",
+  "default": "Intro",
   "design": {
     "atoms": [
       {
@@ -22,23 +22,18 @@
       },
       {
         "type": "text",
-        "id": "Proyectos"
-      },
-      {
-        "type": "text",
-        "id": "Nuestros"
+        "id": "Galeria"
       }
     ],
     "modes": {
-      "NuestroProyectosTitle": {
+      "Intro": {
         "rules": [
           {
             "id": "top_level",
             "is-structured": "false",
             "children": [
               "Separador",
-              "Proyectos",
-              "Nuestros"
+              "Galeria"
             ],
             "clip-content": "false"
           },
@@ -46,7 +41,7 @@
             "id": "Separador",
             "margin": {
               "left": "1.0",
-              "top": "78.0",
+              "top": "52.0",
               "bottom": "11.0"
             },
             "size-constraints": {
@@ -62,10 +57,9 @@
             "vector-content": "separador.svg"
           },
           {
-            "id": "Proyectos",
+            "id": "Galeria",
             "margin": {
-              "top": "26.0",
-              "right": "193.0"
+              "right": "233.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -84,38 +78,8 @@
               "saturation": "0.0",
               "value": "0.2"
             },
-            "text-content": "Proyectos",
+            "text-content": "Galeria",
             "overflow": "visible",
-            "text-align": "left",
-            "text-size": "30.0",
-            "line-height": "2.133333282470703"
-          },
-          {
-            "id": "Nuestros",
-            "margin": {
-              "right": "187.0",
-              "bottom": "26.0"
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              }
-            },
-            "font-weight": "300.0",
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "0.7411764705882353"
-            },
-            "text-content": "Nuestros",
-            "overflow": "visible",
-            "max-lines": "-1",
             "text-align": "left",
             "text-size": "30.0",
             "line-height": "2.133333282470703"
@@ -126,10 +90,10 @@
   },
   "previews": [
     {
-      "design": "NuestroProyectosTitle",
+      "design": "Intro",
       "size": {
         "width": 329.0,
-        "height": 90.0
+        "height": 64.0
       }
     }
   ],

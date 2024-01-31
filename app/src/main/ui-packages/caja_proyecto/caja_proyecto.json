@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
     "node": "123:98",
-    "version": "5033643859",
+    "version": "5069327008",
     "component-id": "9c95667827fb1066d8b220bb3a9d2bd64953b187"
   },
   "default": "CajaProy3",
@@ -292,7 +292,7 @@
             "id": "Ver Más",
             "margin": {
               "top": "6.0",
-              "right": "63.0",
+              "right": "24.0",
               "bottom": "6.0"
             },
             "size-constraints": {
@@ -313,6 +313,7 @@
             },
             "text-content": "Ver Más",
             "overflow": "visible",
+            "max-lines": "-1",
             "text-align": "left",
             "text-size": "12.0",
             "letter-spacing": "2.4000000000000004",
@@ -597,7 +598,7 @@
             "id": "Ver Más",
             "margin": {
               "top": "6.0",
-              "right": "63.0",
+              "right": "24.0",
               "bottom": "6.0"
             },
             "size-constraints": {
@@ -618,6 +619,7 @@
             },
             "text-content": "Ver Más",
             "overflow": "visible",
+            "max-lines": "-1",
             "text-align": "left",
             "text-size": "12.0",
             "letter-spacing": "2.4000000000000004",
@@ -906,7 +908,7 @@
             "id": "Ver Más",
             "margin": {
               "top": "6.0",
-              "right": "63.0",
+              "right": "24.0",
               "bottom": "6.0"
             },
             "size-constraints": {
@@ -927,6 +929,7 @@
             },
             "text-content": "Ver Más",
             "overflow": "visible",
+            "max-lines": "-1",
             "text-align": "left",
             "text-size": "12.0",
             "letter-spacing": "2.4000000000000004",

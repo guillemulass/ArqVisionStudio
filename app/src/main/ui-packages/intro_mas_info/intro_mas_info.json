@@ -1,14 +1,14 @@
 {
-  "name": "footer_main",
+  "name": "intro_mas_info",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "KC881wEcvMALkKRZDDAaxh",
-    "node": "112:138",
-    "version": "5069327008",
-    "component-id": "349c7f7ed30a6b83ce8cbf57f51ea7069fca612d"
+    "node": "1230:273",
+    "version": "5069356423",
+    "component-id": "0be4dab62735b65da6f47292bd2f4df7d1be0ad3"
   },
-  "default": "Footer Main",
+  "default": "Intro Mas Info",
   "design": {
     "atoms": [
       {
@@ -18,47 +18,46 @@
       },
       {
         "type": "vector",
-        "id": "FondoFooter"
+        "id": "Separador"
       },
       {
         "type": "text",
-        "id": "más info"
-      },
-      {
-        "type": "text",
-        "id": "proyectos"
+        "id": "IntroText"
       },
       {
         "type": "vector",
-        "id": "indicador2"
+        "id": "Separador1"
       },
       {
         "type": "text",
-        "id": "Inicio"
+        "id": "Nosotros"
       },
       {
-        "type": "vector",
-        "id": "indicador1"
+        "type": "text",
+        "id": "Sobre"
       }
     ],
     "modes": {
-      "Footer Main": {
+      "Intro Mas Info": {
         "rules": [
           {
             "id": "top_level",
             "is-structured": "false",
             "children": [
-              "FondoFooter",
-              "más info",
-              "proyectos",
-              "indicador2",
-              "Inicio",
-              "indicador1"
+              "Separador",
+              "IntroText",
+              "Separador1",
+              "Nosotros",
+              "Sobre"
             ],
             "clip-content": "false"
           },
           {
-            "id": "FondoFooter",
+            "id": "Separador",
+            "margin": {
+              "top": "412.0",
+              "right": "2.0"
+            },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -69,17 +68,14 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "fondo_footer.svg"
+            "vector-content": "separador.svg"
           },
           {
-            "id": "más info",
+            "id": "IntroText",
             "margin": {
-              "left": "266.0",
-              "top": "22.0",
-              "right": "13.0",
-              "bottom": "21.0"
+              "left": "2.0",
+              "top": "86.0"
             },
-            "tap-handler": "$FooterMainMasInfoButton",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -94,55 +90,21 @@
               "alpha": "1.0",
               "hue": "0.0",
               "saturation": "0.0",
-              "value": "0.2"
+              "value": "0.0"
             },
-            "text-content": "más info",
-            "overflow": "visible",
-            "max-lines": "-1",
-            "text-size": "12.0",
-            "letter-spacing": "2.4000000000000004",
-            "case": "upper"
-          },
-          {
-            "id": "proyectos",
-            "margin": {
-              "left": "135.0",
-              "top": "22.0",
-              "right": "136.0",
-              "bottom": "21.0"
-            },
-            "tap-handler": "$FooterMainProyectosButton",
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
-              }
-            },
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "0.2"
-            },
-            "text-content": "proyectos",
+            "text-content": "En ArqVision Studio, creemos que cada proyecto es una oportunidad única para contar una historia arquitectónica cautivadora. Nos esforzamos por fusionar la estética excepcional con la funcionalidad pragmática en cada uno de nuestros diseños. Nuestra filosofía se centra en la colaboración estrecha con nuestros clientes para entender sus aspiraciones y traducirlas en espacios que superen sus \nCon más de 100 proyectos exitosos en nuestro portafolio, hemos demostrado nuestra capacidad para enfrentar desafíos arquitectónicos diversos. Desde residencias lujosas hasta espacios comerciales vanguardistas, nuestro equipo multidisciplinario combina creatividad y conocimiento técnico para ofrecer soluciones excepcionales.\n",
             "overflow": "visible",
             "max-lines": "-1",
             "text-align": "left",
             "text-size": "12.0",
-            "letter-spacing": "2.4000000000000004",
-            "case": "upper"
+            "line-height": "2.083333282470703"
           },
           {
-            "id": "indicador2",
+            "id": "Separador1",
             "margin": {
-              "left": "20.0",
-              "top": "39.0",
-              "right": "268.0",
-              "bottom": "16.0"
+              "left": "2.0",
+              "top": "78.0",
+              "bottom": "334.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -154,15 +116,15 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "indicador2.svg"
+            "vector-content": "separador1.svg"
           },
           {
-            "id": "Inicio",
+            "id": "Nosotros",
             "margin": {
-              "left": "31.0",
-              "top": "22.0",
-              "right": "279.0",
-              "bottom": "21.0"
+              "left": "1.0",
+              "top": "26.0",
+              "right": "205.0",
+              "bottom": "323.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -174,27 +136,25 @@
                 "value": "1.0"
               }
             },
+            "font-weight": "700.0",
             "color": {
               "alpha": "1.0",
               "hue": "0.0",
               "saturation": "0.0",
               "value": "0.2"
             },
-            "text-content": "Inicio",
+            "text-content": "Nosotros",
             "overflow": "visible",
-            "max-lines": "-1",
             "text-align": "left",
-            "text-size": "12.0",
-            "letter-spacing": "2.4000000000000004",
-            "case": "upper"
+            "text-size": "30.0",
+            "line-height": "2.133333282470703"
           },
           {
-            "id": "indicador1",
+            "id": "Sobre",
             "margin": {
-              "left": "20.0",
-              "top": "16.0",
-              "right": "268.0",
-              "bottom": "39.0"
+              "left": "1.0",
+              "right": "51.23699951171875",
+              "bottom": "349.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -206,30 +166,30 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "indicador1.svg"
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7411764705882353"
+            },
+            "text-content": "Sobre",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "2.133333282470703"
           }
         ]
       }
     }
   },
-  "parameters": {
-    "FooterMainMasInfoButton": {
-      "data-type": "void-callback",
-      "required": false,
-      "description": ""
-    },
-    "FooterMainProyectosButton": {
-      "data-type": "void-callback",
-      "required": false,
-      "description": ""
-    }
-  },
   "previews": [
     {
-      "design": "Footer Main",
+      "design": "Intro Mas Info",
       "size": {
-        "width": 360.0,
-        "height": 56.0
+        "width": 330.0,
+        "height": 413.0
       }
     }
   ],

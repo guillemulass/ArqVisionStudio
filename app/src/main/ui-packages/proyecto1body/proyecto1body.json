@@ -1,0 +1,137 @@
+{
+  "name": "proyecto1body",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KC881wEcvMALkKRZDDAaxh",
+    "node": "1230:270",
+    "version": "5069327008",
+    "component-id": "b8af22d926dd0a7647df326f4bcbd7f0d84ae9bc"
+  },
+  "default": "Proyecto1Body",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto1Text"
+      },
+      {
+        "type": "image",
+        "id": "ImgProy1"
+      },
+      {
+        "type": "text",
+        "id": "Proyecto 1"
+      }
+    ],
+    "modes": {
+      "Proyecto1Body": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Proyecto1Text",
+              "ImgProy1",
+              "Proyecto 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Proyecto1Text",
+            "margin": {
+              "top": "245.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "El proyecto arquitectónico propuesto es una fusión innovadora de diseño contemporáneo y sostenibilidad. Inspirado en líneas limpias y formas orgánicas, busca integrarse armoniosamente con el entorno natural. La estructura modular permite una flexibilidad funcional, adaptándose a las necesidades cambiantes del usuario. La utilización de materiales ecoamigables y tecnologías energéticamente eficientes refleja nuestro compromiso con la preservación del medio ambiente. Este proyecto aspira a crear un espacio estético, funcional y respetuoso con el entorno, proporcionando una experiencia arquitectónica única y consciente. El juego de luces y sombras, cuidadosamente calculado, resalta la elegancia de cada detalle arquitectónico durante diferentes momentos del día.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "2.083333282470703"
+          },
+          {
+            "id": "ImgProy1",
+            "margin": {
+              "top": "40.0",
+              "bottom": "359.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "img_proy1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Proyecto 1",
+            "margin": {
+              "right": "183.0",
+              "bottom": "558.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Proyecto 1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "30.0"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Proyecto1Body",
+      "size": {
+        "width": 328.0,
+        "height": 588.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

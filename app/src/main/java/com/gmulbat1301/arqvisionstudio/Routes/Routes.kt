@@ -8,7 +8,7 @@ sealed class Routes(val route : String) {
     object ScreenProyecto2: Routes("screenProyecto2")
     object ScreenProyecto3: Routes("screenProyecto3")
     object ScreenMasInfo: Routes("screenMasInfo")
-    object ScreenGaleria: Routes("screenMasInfo")
+    object ScreenGaleria: Routes("ScreenGaleria")
 
 
 
